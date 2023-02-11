@@ -2,7 +2,37 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
+# Installed plugin
+
+## install tailwindcss
+npm install -D tailwindcss
+npx tailwindcss init
+content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ]
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+## install react-router
+
+npm i react-router-dom
+
+## install react-query
+
+npm i react-query
+
+## install axios
+
+npm i axios
+
+## install react-hot-toast
+
+npm install react-hot-toast
+
 ## Available Scripts
+
+Need to check swr and react-hot-toast
 
 In the project directory, you can run:
 
